@@ -9,7 +9,6 @@ module.exports = {
   ],
   "rules": {
     "at-rule-blacklist": ["debug", "extend"],
-    "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
     "block-no-empty": true,
     "block-opening-brace-space-before": "always",
@@ -83,7 +82,6 @@ module.exports = {
         }
       ]
     ],
-    "order/properties-alphabetical-order": null,
     "order/properties-order": [
       [
         "align-content",
@@ -162,7 +160,6 @@ module.exports = {
     "scss/percent-placeholder-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
     "scss/selector-no-redundant-nesting-selector": true,
     "selector-attribute-quotes": "always",
-    "selector-class-pattern": null,
     "selector-list-comma-newline-after": "always",
     "selector-max-attribute": 2,
     "selector-max-class": 3,
