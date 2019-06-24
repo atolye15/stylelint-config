@@ -101,14 +101,6 @@ source-map@^0.6.1:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
-stylelint-config-sass-guidelines@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-sass-guidelines/-/stylelint-config-sass-guidelines-6.0.0.tgz#e81a5452a52be2578dbb570a56dde1216514b6b6"
-  integrity sha512-roE+YUYTdB7Ald36fv/ZjSYhPJvyI9/24ZDn4M9O8fzrefl1hDvBGWKg1MHJ0a8d5s0a6LNP004WINcWouVlHA==
-  dependencies:
-    stylelint-order "^3.0.0"
-    stylelint-scss "^3.4.0"
-
 stylelint-declaration-block-no-ignored-properties@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.1.0.tgz#3481ad47783441637165b0b15f0f01cc4fa21211"
@@ -142,7 +134,7 @@ stylelint-order@^3.0.0:
     postcss "^7.0.14"
     postcss-sorting "^5.0.0"
 
-stylelint-scss@^3.4.0, stylelint-scss@^3.8.0:
+stylelint-scss@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-3.8.0.tgz#fc372306c2105b461d0c162199e65f0c09fada2a"
   integrity sha512-J55tNmxXEh/ymhz5BiscIiUcHgPmJ2Nv+0+zgnqTqdQBe1URQbrdjlAyK3xq+7i2nVpWr2wlRj25SjoonZFcHg==
