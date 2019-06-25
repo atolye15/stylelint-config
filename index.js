@@ -63,38 +63,42 @@ module.exports = {
     "order/order": [
       [
         "custom-properties",
-        "declarations",
         "dollar-variables",
-        "rules",
         {
-          "hasBlock": false,
-          "name": "include",
-          "type": "at-rule"
+          "type": "at-rule",
+          "name": "extend"
         },
         {
-          "hasBlock": true,
+          "type": "at-rule",
           "name": "include",
-          "type": "at-rule"
+          "hasBlock": false
         },
+        "declarations",
         {
-          "name": "extend",
-          "type": "at-rule"
-        }
+          "type": "at-rule",
+          "name": "include",
+          "hasBlock": true
+        },
+        "rules"
       ]
     ],
     "order/properties-order": [
       [
-        "align-content",
-        "align-items",
-        "align-self",
-        "border",
-        "border-bottom",
-        "border-left",
-        "border-right",
-        "border-top",
+        "position",
+        "z-index",
+        "top",
+        "right",
         "bottom",
-        "box-sizing",
+        "left",
         "display",
+        "overflow",
+        "width",
+        "min-width",
+        "max-width",
+        "height",
+        "min-height",
+        "max-height",
+        "box-sizing",
         "flex",
         "flex-basis",
         "flex-direction",
@@ -102,30 +106,26 @@ module.exports = {
         "flex-grow",
         "flex-shrink",
         "flex-wrap",
-        "height",
+        "align-content",
+        "align-items",
+        "align-self",
         "justify-content",
-        "left",
-        "margin",
-        "margin-bottom",
-        "margin-left",
-        "margin-right",
-        "margin-top",
-        "max-height",
-        "max-width",
-        "min-height",
-        "min-width",
         "order",
-        "overflow",
         "padding",
+        "padding-top",
+        "padding-right",
         "padding-bottom",
         "padding-left",
-        "padding-right",
-        "padding-top",
-        "position",
-        "right",
-        "top",
-        "width",
-        "z-index"
+        "border",
+        "border-top",
+        "border-right",
+        "border-bottom",
+        "border-left",
+        "margin",
+        "margin-top",
+        "margin-right",
+        "margin-bottom",
+        "margin-left"
       ],
       {
         "unspecified": "bottomAlphabetical"
