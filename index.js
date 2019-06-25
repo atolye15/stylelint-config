@@ -53,7 +53,7 @@ module.exports = {
     "meowtec/no-px": [
       true,
       {
-        "ignoreFunctions": ["em", "px-to-rem"]
+        "ignoreFunctions": ["px-to-em", "px-to-rem"]
       }
     ],
     "no-duplicate-selectors": true,
