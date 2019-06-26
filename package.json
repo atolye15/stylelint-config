@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-atolye15",
+  "name": "@atolye15/stylelint-config-atolye15",
   "version": "1.0.0",
   "description": "Atölye15 shareable config for stylelint.",
   "main": "index.js",
