@@ -1,4 +1,4 @@
-# stylelint-config-atolye15
+# stylelint-config
 
 > Atölye15 shareable config for stylelint.
 
@@ -7,11 +7,11 @@ Configuration rules to ensure your CSS code is compliant with Atölye15's code s
 ## Installation
 
 ```console
-yarn add stylelint-config-atolye15 --dev
+yarn add @atolye15/stylelint-config --dev
 
 # Or with npm:
 
-npm install stylelint-config-atolye15 --save-dev
+npm install @atolye15/stylelint-config --save-dev
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Set your stylelint config to:
 
 ```json
 {
-  "extends": "stylelint-config-atolye15"
+  "extends": "stylelint-config"
 }
 ```
 
@@ -32,7 +32,7 @@ For example, to change the `indentation` to tabs and turn off the `number-leadin
 
 ```json
 {
-  "extends": "stylelint-config-atolye15",
+  "extends": "stylelint-config",
   "rules": {
     "indentation": "tab",
     "number-leading-zero": null
@@ -40,6 +40,6 @@ For example, to change the `indentation` to tabs and turn off the `number-leadin
 }
 ```
 
-## [Changelog](https://github.com/atolye15/stylelint-config-atolye15/releases)
+## [Changelog](https://github.com/atolye15/stylelint-config/releases)
 
 ## [License](LICENSE)

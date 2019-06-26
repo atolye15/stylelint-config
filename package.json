@@ -1,5 +1,5 @@
 {
-  "name": "@atolye15/stylelint-config-atolye15",
+  "name": "@atolye15/stylelint-config",
   "version": "1.0.0",
   "description": "Atölye15 shareable config for stylelint.",
   "main": "index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atolye15/stylelint-config-atolye15.git"
+    "url": "git+https://github.com/atolye15/stylelint-config.git"
   },
   "author": "Atolye15",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atolye15/stylelint-config-atolye15/issues"
+    "url": "https://github.com/atolye15/stylelint-config/issues"
   },
-  "homepage": "https://github.com/atolye15/stylelint-config-atolye15#readme",
+  "homepage": "https://github.com/atolye15/stylelint-config#readme",
   "peerDependencies": {
     "stylelint": "^10.1.0"
   },
