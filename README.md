@@ -7,11 +7,11 @@ Configuration rules to ensure your CSS code is compliant with Atölye15's code s
 ## Installation
 
 ```console
-yarn add stylelint-config-atolye15
+yarn add stylelint-config-atolye15 --dev
 
-# Or with yarn:
+# Or with npm:
 
-npm install stylelint-config-atolye15
+npm install stylelint-config-atolye15 --save-dev
 ```
 
 ## Usage
