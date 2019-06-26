@@ -20,7 +20,7 @@ Set your stylelint config to:
 
 ```json
 {
-  "extends": "stylelint-config"
+  "extends": "@atolye15/stylelint-config"
 }
 ```
 
@@ -32,7 +32,7 @@ For example, to change the `indentation` to tabs and turn off the `number-leadin
 
 ```json
 {
-  "extends": "stylelint-config",
+  "extends": "@atolye15/stylelint-config",
   "rules": {
     "indentation": "tab",
     "number-leading-zero": null
