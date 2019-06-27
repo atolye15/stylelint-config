@@ -1,6 +1,6 @@
 {
   "name": "@atolye15/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Atölye15 shareable config for stylelint.",
   "main": "index.js",
   "keywords": [
