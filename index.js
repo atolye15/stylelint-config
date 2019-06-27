@@ -38,7 +38,7 @@ module.exports = {
     "function-calc-no-unspaced-operator": true,
     "function-comma-space-after": "always-single-line",
     "function-linear-gradient-no-nonstandard-direction": true,
-    "function-parentheses-space-inside": "never",
+    "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": "always",
     "indentation": 2,
     "length-zero-no-unit": true,
