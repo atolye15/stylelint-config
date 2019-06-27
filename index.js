@@ -10,7 +10,10 @@ module.exports = {
   "rules": {
     "at-rule-blacklist": ["debug", "extend"],
     "at-rule-no-vendor-prefix": true,
+    "block-closing-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
     "block-no-empty": true,
+    "block-opening-brace-newline-after": "always",
     "block-opening-brace-space-before": "always",
     "color-hex-case": "lower",
     "color-hex-length": "short",
@@ -24,6 +27,7 @@ module.exports = {
     "declaration-block-semicolon-space-before": "never",
     "declaration-block-single-line-max-declarations": 1,
     "declaration-block-trailing-semicolon": "always",
+    "declaration-colon-newline-after": "always-multi-line",
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
     "declaration-no-important": true,
@@ -36,20 +40,32 @@ module.exports = {
     "font-weight-notation": "numeric",
     "function-calc-no-invalid": true,
     "function-calc-no-unspaced-operator": true,
+    "function-comma-newline-after": "always-multi-line",
     "function-comma-space-after": "always-single-line",
+    "function-comma-space-before": "never",
     "function-linear-gradient-no-nonstandard-direction": true,
+    "function-parentheses-newline-inside": "always-multi-line",
     "function-parentheses-space-inside": "never-single-line",
     "function-url-quotes": "always",
+    "function-whitespace-after": "always",
     "indentation": 2,
     "length-zero-no-unit": true,
+    "max-empty-lines": 1,
     "max-nesting-depth": [
       3,
       {
         "ignoreAtRules": ["each", "else", "if", "include", "media", "supports"]
       }
     ],
+    "media-feature-colon-space-after": "always",
+    "media-feature-colon-space-before": "never",
     "media-feature-name-no-vendor-prefix": true,
     "media-feature-parentheses-space-inside": "never",
+    "media-feature-range-operator-space-after": "always",
+    "media-feature-range-operator-space-before": "always",
+    "media-query-list-comma-newline-after": "always-multi-line",
+    "media-query-list-comma-space-after": "always-single-line",
+    "media-query-list-comma-space-before": "never",
     "meowtec/no-px": [
       true,
       {
@@ -57,6 +73,7 @@ module.exports = {
       }
     ],
     "no-duplicate-selectors": true,
+    "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
@@ -179,7 +196,10 @@ module.exports = {
     "scss/percent-placeholder-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
     "scss/selector-no-redundant-nesting-selector": true,
     "selector-attribute-quotes": "always",
+    "selector-combinator-space-after": "always",
+    "selector-combinator-space-before": "always",
     "selector-list-comma-newline-after": "always",
+    "selector-list-comma-space-before": "never",
     "selector-max-attribute": 2,
     "selector-max-class": 3,
     "selector-max-compound-selectors": 3,
@@ -192,6 +212,9 @@ module.exports = {
     "selector-pseudo-element-no-unknown": true,
     "shorthand-property-no-redundant-values": true,
     "string-quotes": "single",
+    "value-list-comma-newline-after": "always-multi-line",
+    "value-list-comma-space-after": "always-single-line",
+    "value-list-comma-space-before": "never",
     "value-no-vendor-prefix": true
   }
 }
