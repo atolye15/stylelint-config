@@ -168,7 +168,10 @@ module.exports = {
       }
     ],
     "plugin/declaration-block-no-ignored-properties": true,
-    "plugin/no-low-performance-animation-properties": true,
+    "plugin/no-low-performance-animation-properties": [
+      true,
+      { "ignoreProperties": ["color", "background-color"] },
+    ],
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": [
