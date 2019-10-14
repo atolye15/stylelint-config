@@ -179,7 +179,10 @@ module.exports = {
     "scale-unlimited/declaration-strict-value": [
       ["color", "z-index"],
       {
-        "ignoreKeywords": ["currentColor", "inherit", "transparent"]
+        "ignoreKeywords": {
+          "": ["currentColor", "inherit", "transparent"],
+          "z-index": 0,
+        }
       }
     ],
     "scss/at-extend-no-missing-placeholder": true,
