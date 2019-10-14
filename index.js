@@ -4,7 +4,6 @@ module.exports = {
     "stylelint-declaration-block-no-ignored-properties",
     "stylelint-order",
     "stylelint-scss",
-    "stylelint-high-performance-animation",
     "stylelint-no-px"
   ],
   "rules": {
@@ -168,10 +167,6 @@ module.exports = {
       }
     ],
     "plugin/declaration-block-no-ignored-properties": true,
-    "plugin/no-low-performance-animation-properties": [
-      true,
-      { "ignoreProperties": ["color", "background-color"] },
-    ],
     "property-no-unknown": true,
     "property-no-vendor-prefix": true,
     "rule-empty-line-before": [
