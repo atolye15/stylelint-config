@@ -25,10 +25,10 @@
     "stylelint": ">=10.1.0"
   },
   "dependencies": {
-    "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
-    "stylelint-declaration-strict-value": "^1.1.6",
-    "stylelint-no-px": "^0.12.1",
-    "stylelint-order": "^3.1.1",
-    "stylelint-scss": "^3.11.1"
+    "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+    "stylelint-declaration-strict-value": "^1.5.0",
+    "stylelint-no-px": "^1.0.1",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   }
 }
