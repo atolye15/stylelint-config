@@ -7,7 +7,7 @@ module.exports = {
     "stylelint-no-px"
   ],
   "rules": {
-    "at-rule-blacklist": ["debug", "extend"],
+    "at-rule-disallowed-list": ["debug", "extend"],
     "at-rule-no-vendor-prefix": true,
     "block-closing-brace-newline-after": "always",
     "block-closing-brace-newline-before": "always",
@@ -30,7 +30,7 @@ module.exports = {
     "declaration-colon-space-after": "always-single-line",
     "declaration-colon-space-before": "never",
     "declaration-no-important": true,
-    "declaration-property-value-blacklist": {
+    "declaration-property-value-disallowed-list": {
       "/.+/": ["initial"],
       "/^border/": ["none"],
       "/^transition/": ["/all/"]
