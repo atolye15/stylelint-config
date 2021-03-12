@@ -209,6 +209,7 @@ module.exports = {
     "selector-max-universal": 1,
     "selector-no-qualifying-type": true,
     "selector-no-vendor-prefix": true,
+    "selector-pseudo-class-disallowed-list": ["not"],
     "selector-pseudo-element-colon-notation": "double",
     "selector-pseudo-element-no-unknown": true,
     "shorthand-property-no-redundant-values": true,
