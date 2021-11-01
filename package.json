@@ -21,7 +21,9 @@
     "url": "https://github.com/atolye15/stylelint-config/issues"
   },
   "homepage": "https://github.com/atolye15/stylelint-config#readme",
-  "peerDependencies": {},
+  "peerDependencies": {
+    "stylelint": "^14.0.1"
+  },
   "dependencies": {
     "postcss-scss": "^4.0.1",
     "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
