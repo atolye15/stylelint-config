@@ -6,6 +6,7 @@ module.exports = {
     "stylelint-scss",
     "stylelint-no-px"
   ],
+  "customSyntax": 'postcss-scss',
   "rules": {
     "at-rule-disallowed-list": ["debug", "extend"],
     "at-rule-no-vendor-prefix": true,
@@ -37,8 +38,6 @@ module.exports = {
     },
     "font-family-name-quotes": "always-where-recommended",
     "font-weight-notation": "numeric",
-    "function-calc-no-invalid": true,
-    "function-calc-no-unspaced-operator": true,
     "function-comma-newline-after": "always-multi-line",
     "function-comma-space-after": "always-single-line",
     "function-comma-space-before": "never",

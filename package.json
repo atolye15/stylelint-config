@@ -1,6 +1,6 @@
 {
   "name": "@atolye15/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Atölye15 shareable config for stylelint.",
   "main": "index.js",
   "keywords": [
@@ -22,9 +22,10 @@
   },
   "homepage": "https://github.com/atolye15/stylelint-config#readme",
   "peerDependencies": {
-    "stylelint": "^14.0.0"
+    "stylelint": "^14.0.1"
   },
   "dependencies": {
+    "postcss-scss": "^4.0.1",
     "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
     "stylelint-declaration-strict-value": "^1.7.12",
     "stylelint-no-px": "^1.0.1",
