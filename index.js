@@ -6,6 +6,7 @@ module.exports = {
     "stylelint-scss",
     "stylelint-no-px"
   ],
+  "customSyntax": 'postcss-scss',
   "rules": {
     "at-rule-disallowed-list": ["debug", "extend"],
     "at-rule-no-vendor-prefix": true,
