@@ -25,11 +25,11 @@
     "stylelint": "^14.0.1"
   },
   "dependencies": {
-    "postcss-scss": "^4.0.1",
-    "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
-    "stylelint-declaration-strict-value": "^1.7.12",
+    "postcss-scss": "^4.0.4",
+    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
+    "stylelint-declaration-strict-value": "^1.8.0",
     "stylelint-no-px": "^1.0.1",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.0.0"
+    "stylelint-scss": "^4.2.0"
   }
 }
