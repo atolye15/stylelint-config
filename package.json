@@ -9,7 +9,8 @@
     "atolye15"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,8 @@
     "stylelint-no-px": "^1.0.1",
     "stylelint-order": "^6.0.1",
     "stylelint-scss": "^4.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
   }
 }
