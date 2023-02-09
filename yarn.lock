@@ -50,7 +50,7 @@ postcss-sorting@^8.0.1:
   resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-8.0.1.tgz#d03852914979ac0a1ef3ca6e517bf4b53c045f35"
   integrity sha512-go9Zoxx7KQH+uLrJ9xa5wRErFeXu01ydA6O8m7koPXkmAN7Ts//eRcIqjo0stBR4+Nir2gMYDOWAOx7O5EPUZA==
 
-"postcss-value-parser@^3.3.0 || ^4.0.2", postcss-value-parser@^4.1.0:
+postcss-value-parser@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
@@ -78,13 +78,6 @@ stylelint-declaration-block-no-ignored-properties@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.6.0.tgz#237028415b5bd543341f7d3c57c5903259a9e09c"
   integrity sha512-S9EC/tVJL19ppMRC4A4ecxtkENHZ7WNrEAukJVDtFt+iZgNP3SmokOLlYUhe6qZuB2XUvETqUx6r2p3Xfo7Rxw==
-
-stylelint-no-px@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/stylelint-no-px/-/stylelint-no-px-1.0.1.tgz#4d137c60a02c60514a958b43d3bb41805405a3ca"
-  integrity sha512-33+Gd5WFeSvEiOV8IwWMVgjzYieFg/Q4ETKeZkahSYl2V7+WMtgNT32IYYEspN402ZJv16bOciwEnG1GY2qrPA==
-  dependencies:
-    postcss-value-parser "^3.3.0 || ^4.0.2"
 
 stylelint-order@^6.0.1:
   version "6.0.1"

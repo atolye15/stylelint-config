@@ -3,7 +3,6 @@ module.exports = {
     'stylelint-declaration-block-no-ignored-properties',
     'stylelint-order',
     'stylelint-scss',
-    'stylelint-no-px',
   ],
   customSyntax: 'postcss-scss',
   rules: {
@@ -73,12 +72,6 @@ module.exports = {
     'media-query-list-comma-newline-after': 'always-multi-line',
     'media-query-list-comma-space-after': 'always-single-line',
     'media-query-list-comma-space-before': 'never',
-    'meowtec/no-px': [
-      true,
-      {
-        ignoreFunctions: ['px-to-em', 'px-to-rem'],
-      },
-    ],
     'named-grid-areas-no-invalid': true,
     'no-descending-specificity': true,
     'no-duplicate-selectors': true,

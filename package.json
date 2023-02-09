@@ -28,7 +28,6 @@
   "dependencies": {
     "postcss-scss": "^4.0.6",
     "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
-    "stylelint-no-px": "^1.0.1",
     "stylelint-order": "^6.0.1",
     "stylelint-scss": "^4.3.0"
   },
