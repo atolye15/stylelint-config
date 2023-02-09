@@ -1,6 +1,5 @@
 module.exports = {
   plugins: [
-    'stylelint-declaration-strict-value',
     'stylelint-declaration-block-no-ignored-properties',
     'stylelint-order',
     'stylelint-scss',
@@ -193,15 +192,6 @@ module.exports = {
       {
         except: ['first-nested'],
         ignore: ['after-comment'],
-      },
-    ],
-    'scale-unlimited/declaration-strict-value': [
-      ['color', 'z-index'],
-      {
-        ignoreKeywords: {
-          '': ['currentColor', 'inherit', 'transparent'],
-          'z-index': 0,
-        },
       },
     ],
     'scss/at-extend-no-missing-placeholder': true,
