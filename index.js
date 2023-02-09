@@ -1,9 +1,5 @@
 module.exports = {
-  plugins: [
-    'stylelint-declaration-block-no-ignored-properties',
-    'stylelint-order',
-    'stylelint-scss',
-  ],
+  plugins: ['stylelint-order', 'stylelint-scss'],
   customSyntax: 'postcss-scss',
   rules: {
     'at-rule-disallowed-list': ['debug', 'extend'],
@@ -177,7 +173,6 @@ module.exports = {
         unspecified: 'bottomAlphabetical',
       },
     ],
-    'plugin/declaration-block-no-ignored-properties': true,
     'property-no-unknown': true,
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': [

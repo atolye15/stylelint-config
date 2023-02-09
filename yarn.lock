@@ -74,11 +74,6 @@ source-map-js@^1.0.2:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
-stylelint-declaration-block-no-ignored-properties@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.6.0.tgz#237028415b5bd543341f7d3c57c5903259a9e09c"
-  integrity sha512-S9EC/tVJL19ppMRC4A4ecxtkENHZ7WNrEAukJVDtFt+iZgNP3SmokOLlYUhe6qZuB2XUvETqUx6r2p3Xfo7Rxw==
-
 stylelint-order@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-6.0.1.tgz#a43349d99b38dd4e00bc9c5045794f2a73754e51"
