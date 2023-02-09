@@ -9,7 +9,8 @@
     "atolye15"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write"
   },
   "repository": {
     "type": "git",
@@ -25,11 +26,11 @@
     "stylelint": "^14.0.1"
   },
   "dependencies": {
-    "postcss-scss": "^4.0.4",
-    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
-    "stylelint-declaration-strict-value": "^1.8.0",
-    "stylelint-no-px": "^1.0.1",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.2.0"
+    "postcss-scss": "^4.0.6",
+    "stylelint-order": "^6.0.1",
+    "stylelint-scss": "^4.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
   }
 }
