@@ -42,7 +42,6 @@ module.exports = {
     'function-comma-space-before': 'never',
     'function-calc-no-unspaced-operator': true,
     'function-linear-gradient-no-nonstandard-direction': true,
-    'function-no-unknown': true,
     'function-parentheses-newline-inside': 'always-multi-line',
     'function-parentheses-space-inside': 'never-single-line',
     'function-url-quotes': 'always',
