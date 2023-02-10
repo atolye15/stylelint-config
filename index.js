@@ -187,7 +187,6 @@ module.exports = {
     'scss/at-import-partial-extension': 'never',
     'scss/at-mixin-pattern': '^[_-]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$',
     'scss/at-rule-no-unknown': true,
-    'scss/comment-no-empty': true,
     'scss/declaration-nested-properties-no-divided-groups': true,
     'scss/dollar-variable-colon-space-after': 'always',
     'scss/dollar-variable-colon-space-before': 'never',
