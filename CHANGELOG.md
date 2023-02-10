@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.1](https://github.com/atolye15/stylelint-config/compare/v3.0.0...v3.0.1) (2023-02-10)
+
+
+### Refactors
+
+* removed the rule function-no-unknown because it causes many problems in scss ([71b7829](https://github.com/atolye15/stylelint-config/commit/71b78293c4a02d97476c50b2fe04c11780b6b670))
+* removed the rule scss/comment-no-empty because it does not work as expected ([e89a3e3](https://github.com/atolye15/stylelint-config/commit/e89a3e366430e65dab4aea7b6e46335509770e14))
+
 ## [3.0.0](https://github.com/atolye15/stylelint-config/compare/v2.0.2...v3.0.0) (2023-02-09)
 
 
