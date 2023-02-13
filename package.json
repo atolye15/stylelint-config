@@ -27,8 +27,8 @@
   },
   "dependencies": {
     "postcss-scss": "^4.0.6",
-    "stylelint-order": "^6.0.1",
-    "stylelint-scss": "^4.3.0"
+    "stylelint-order": "^6.0.2",
+    "stylelint-scss": "^4.4.0"
   },
   "devDependencies": {
     "prettier": "^2.8.4"
