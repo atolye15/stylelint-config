@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.0.0](https://github.com/atolye15/stylelint-config/compare/v3.0.1...v4.0.0) (2023-02-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* See https://github.com/stylelint/stylelint/blob/main/docs/migration-guide/to-15.md#deprecated-stylistic-rules
+* See https://github.com/stylelint/stylelint/releases/tag/15.0.0
+
+### build
+
+* upgrade peer dependency stylelint to 15.0.0 ([21af576](https://github.com/atolye15/stylelint-config/commit/21af57688763105fc9e6f4d1cb5afc1d1fc6ced9))
+
+
+### Refactors
+
+* remove deprecated rules ([6ed0c3d](https://github.com/atolye15/stylelint-config/commit/6ed0c3df164ae34075135bc37db87d3cfb3389c5))
+
 ## [3.0.1](https://github.com/atolye15/stylelint-config/compare/v3.0.0...v3.0.1) (2023-02-10)
 
 
