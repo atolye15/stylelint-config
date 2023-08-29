@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.1](https://github.com/atolye15/stylelint-config/compare/v4.0.0...v4.0.1) (2023-08-29)
+
+
+### build
+
+* upgrade dependencies ([64dd353](https://github.com/atolye15/stylelint-config/commit/64dd353ca84bb82ccaf3f5a724a88501740db8b8))
+
 ## [4.0.0](https://github.com/atolye15/stylelint-config/compare/v3.0.1...v4.0.0) (2023-02-13)
 
 
