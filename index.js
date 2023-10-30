@@ -1,5 +1,6 @@
 module.exports = {
-  plugins: ['stylelint-order', 'stylelint-scss'],
+  extends: 'stylelint-config-standard-scss',
+  plugins: ['stylelint-order'],
   customSyntax: 'postcss-scss',
   rules: {
     'at-rule-disallowed-list': ['debug', 'extend'],
@@ -15,7 +16,6 @@ module.exports = {
     'declaration-block-single-line-max-declarations': 1,
     'declaration-no-important': true,
     'declaration-property-value-disallowed-list': {
-      '/.+/': ['initial'],
       '/^border/': ['none'],
       '/^transition/': ['/all/'],
       '/^background/': ['http:', 'https:'],

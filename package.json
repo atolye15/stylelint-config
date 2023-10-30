@@ -26,9 +26,9 @@
     "stylelint": "^15.0.0"
   },
   "dependencies": {
-    "postcss-scss": "^4.0.7",
-    "stylelint-order": "^6.0.3",
-    "stylelint-scss": "^5.1.0"
+    "postcss-scss": "^4.0.9",
+    "stylelint-config-standard-scss": "^11.0.0",
+    "stylelint-order": "^6.0.3"
   },
   "devDependencies": {
     "prettier": "^3.0.3"
