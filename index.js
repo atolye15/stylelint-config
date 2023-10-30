@@ -154,6 +154,7 @@ module.exports = {
     'scss/at-import-partial-extension': 'never',
     'scss/at-mixin-pattern': '^[_-]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$',
     'scss/at-rule-no-unknown': true,
+    'scss/comment-no-empty': null,
     'scss/declaration-nested-properties-no-divided-groups': true,
     'scss/dollar-variable-colon-space-after': 'always',
     'scss/dollar-variable-colon-space-before': 'never',
@@ -169,6 +170,15 @@ module.exports = {
     'scss/operator-no-unspaced': true,
     'scss/selector-no-redundant-nesting-selector': true,
     'selector-attribute-quotes': 'always',
+    'selector-class-pattern': [
+      '^[a-z]([-]?[a-z0-9]+)*(__[a-z0-9]([-]?[a-z0-9]+)*)?(--[a-z0-9]([-]?[a-z0-9]+)*)?$',
+      {
+        resolveNestedSelectors: true,
+        message: function expected(selectorValue) {
+          return `Expected class selector "${selectorValue}" to match BEM CSS pattern https://en.bem.info/methodology/css.`;
+        },
+      },
+    ],
     'selector-max-attribute': 2,
     'selector-max-class': 3,
     'selector-max-compound-selectors': 3,
@@ -177,6 +187,7 @@ module.exports = {
     'selector-max-universal': 1,
     'selector-no-qualifying-type': true,
     'selector-no-vendor-prefix': true,
+    'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: ['global'] }],
     'selector-pseudo-element-colon-notation': 'double',
     'selector-pseudo-element-no-unknown': true,
     'shorthand-property-no-redundant-values': true,
