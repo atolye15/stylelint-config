@@ -16,7 +16,6 @@ module.exports = {
     'declaration-block-single-line-max-declarations': 1,
     'declaration-no-important': true,
     'declaration-property-value-disallowed-list': {
-      '/.+/': ['initial'],
       '/^border/': ['none'],
       '/^transition/': ['/all/'],
       '/^background/': ['http:', 'https:'],
