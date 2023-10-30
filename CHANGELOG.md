@@ -1,5 +1,18 @@
 # Changelog
 
+## [4.1.1](https://github.com/atolye15/stylelint-config/compare/v4.1.0...v4.1.1) (2023-10-30)
+
+
+### Bug Fixes
+
+* fix selector-class-pattern does not match BEM notation ([765704d](https://github.com/atolye15/stylelint-config/commit/765704dc35ec5028dcd8e1380ee7d9ee396f936f))
+* fix stylelint complains about :global selector ([c722ec3](https://github.com/atolye15/stylelint-config/commit/c722ec3d78e995fcdd83513fd031f8a0e13a8f6a))
+
+
+### Refactors
+
+* disable scss/comment-no-empty rule ([d2bf0d9](https://github.com/atolye15/stylelint-config/commit/d2bf0d942eb5251411723e72fbcebed56b6d21f3))
+
 ## [4.1.0](https://github.com/atolye15/stylelint-config/compare/v4.0.1...v4.1.0) (2023-10-30)
 
 
