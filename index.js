@@ -170,6 +170,15 @@ module.exports = {
     'scss/operator-no-unspaced': true,
     'scss/selector-no-redundant-nesting-selector': true,
     'selector-attribute-quotes': 'always',
+    'selector-class-pattern': [
+      '^[a-z]([-]?[a-z0-9]+)*(__[a-z0-9]([-]?[a-z0-9]+)*)?(--[a-z0-9]([-]?[a-z0-9]+)*)?$',
+      {
+        resolveNestedSelectors: true,
+        message: function expected(selectorValue) {
+          return `Expected class selector "${selectorValue}" to match BEM CSS pattern https://en.bem.info/methodology/css.`;
+        },
+      },
+    ],
     'selector-max-attribute': 2,
     'selector-max-class': 3,
     'selector-max-compound-selectors': 3,
