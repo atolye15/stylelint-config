@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.1.0](https://github.com/atolye15/stylelint-config/compare/v4.0.1...v4.1.0) (2023-10-30)
+
+
+### Refactors
+
+* allow to set initial as a value ([70cb233](https://github.com/atolye15/stylelint-config/commit/70cb233838a8d5c9ae23a3c05906c4986214ac78))
+* use stylelint-config-standard-scss directly ([69e87f5](https://github.com/atolye15/stylelint-config/commit/69e87f5005c7747ba7a4377e9b4c57430e74abf1))
+
 ## [4.0.1](https://github.com/atolye15/stylelint-config/compare/v4.0.0...v4.0.1) (2023-08-29)
 
 
