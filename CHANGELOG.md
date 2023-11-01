@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.2](https://github.com/atolye15/stylelint-config/compare/v4.1.1...v4.1.2) (2023-11-01)
+
+
+### Bug Fixes
+
+* remove deprecated rule and use with the new one ([7e56c65](https://github.com/atolye15/stylelint-config/commit/7e56c65fc3aea4678fae88e1c61fade06225a18a))
+
 ## [4.1.1](https://github.com/atolye15/stylelint-config/compare/v4.1.0...v4.1.1) (2023-10-30)
 
 
