@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.3](https://github.com/atolye15/stylelint-config/compare/v4.1.2...v4.1.3) (2023-11-03)
+
+
+### Bug Fixes
+
+* fix the rule load-no-partial-leading-underscore not found ([0dfe398](https://github.com/atolye15/stylelint-config/commit/0dfe398aca68193cd9cffaea445588df1a043e7c))
+
 ## [4.1.2](https://github.com/atolye15/stylelint-config/compare/v4.1.1...v4.1.2) (2023-11-01)
 
 
