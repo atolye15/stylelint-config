@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.0.0](https://github.com/atolye15/stylelint-config/compare/v4.1.3...v5.0.0) (2024-07-01)
+
+
+### build
+
+* upgrade dependencies ([5cd42f7](https://github.com/atolye15/stylelint-config/commit/5cd42f7bf4c0afae49b8053f71790c71c51ab159))
+
+
+### Refactors
+
+* add missing peer dependency postcss ([2c908c7](https://github.com/atolye15/stylelint-config/commit/2c908c7765380288ffea9ffc87f656d64164940f))
+
 ## [4.1.3](https://github.com/atolye15/stylelint-config/compare/v4.1.2...v4.1.3) (2023-11-03)
 
 
