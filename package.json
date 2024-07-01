@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/atolye15/stylelint-config#readme",
   "peerDependencies": {
+    "postcss": "^8.4.39",
     "stylelint": "^16.0.0"
   },
   "dependencies": {
