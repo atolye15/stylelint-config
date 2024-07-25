@@ -150,7 +150,7 @@ module.exports = {
     ],
     'scss/at-extend-no-missing-placeholder': true,
     'scss/at-function-pattern': '^[_-]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$',
-    'scss/at-import-partial-extension': 'never',
+    'scss/load-partial-extension': 'never',
     'scss/at-mixin-pattern': '^[_-]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$',
     'scss/at-rule-no-unknown': true,
     'scss/comment-no-empty': null,
