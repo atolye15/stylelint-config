@@ -32,6 +32,7 @@
     "stylelint-order": "^6.0.4"
   },
   "devDependencies": {
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "stylelint": "^16.15.0"
   }
 }
