@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.1.0](https://github.com/atolye15/stylelint-config/compare/v5.0.1...v5.1.0) (2025-03-13)
+
+
+### build
+
+* upgrade dependencies ([4ed252e](https://github.com/atolye15/stylelint-config/commit/4ed252eef3d610cee6a87fdaf1a0b1d952831460))
+
 ## [5.0.1](https://github.com/atolye15/stylelint-config/compare/v5.0.0...v5.0.1) (2024-07-25)
 
 
