@@ -7,12 +7,14 @@ Configuration rules to ensure your CSS code is compliant with Atölye15's code s
 ## Installation
 
 ```console
-yarn add @atolye15/stylelint-config --dev
+yarn add @atolye15/stylelint-config postcss prettier stylelint --dev
 
 # Or with npm:
 
-npm install @atolye15/stylelint-config --save-dev
+npm install @atolye15/stylelint-config postcss prettier stylelint --save-dev
 ```
+
+_`@atolye15/stylelint-config` does not install PostCSS, Prettier or Stylelint for you. You must install these yourself._
 
 ## Usage
 
