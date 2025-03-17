@@ -24,15 +24,18 @@
   "homepage": "https://github.com/atolye15/stylelint-config#readme",
   "peerDependencies": {
     "postcss": "^8.4.39",
+    "prettier": "^3.5.3",
     "stylelint": "^16.15.0"
   },
   "dependencies": {
     "postcss-scss": "^4.0.9",
+    "stylelint-config-prettier-scss": "^1.0.0",
     "stylelint-config-standard-scss": "^14.0.0",
-    "stylelint-order": "^6.0.4"
+    "stylelint-order": "^6.0.4",
+    "stylelint-prettier": "^5.0.3"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
-    "stylelint": "^16.15.0"
+    "stylelint": "^16.16.0"
   }
 }

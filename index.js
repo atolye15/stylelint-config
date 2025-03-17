@@ -1,5 +1,9 @@
 module.exports = {
-  extends: 'stylelint-config-standard-scss',
+  extends: [
+    'stylelint-config-standard-scss',
+    'stylelint-prettier/recommended',
+    'stylelint-config-prettier-scss',
+  ],
   plugins: ['stylelint-order'],
   customSyntax: 'postcss-scss',
   rules: {
@@ -155,8 +159,6 @@ module.exports = {
     'scss/at-rule-no-unknown': true,
     'scss/comment-no-empty': null,
     'scss/declaration-nested-properties-no-divided-groups': true,
-    'scss/dollar-variable-colon-space-after': 'always',
-    'scss/dollar-variable-colon-space-before': 'never',
     'scss/dollar-variable-no-missing-interpolation': true,
     'scss/dollar-variable-pattern': '^[_-]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$',
     'scss/function-quote-no-quoted-strings-inside': true,
@@ -165,9 +167,6 @@ module.exports = {
     'scss/percent-placeholder-pattern': '^[_-]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$',
     'scss/no-duplicate-mixins': true,
     'scss/no-global-function-names': true,
-    'scss/operator-no-newline-after': true,
-    'scss/operator-no-newline-before': true,
-    'scss/operator-no-unspaced': true,
     'scss/selector-no-redundant-nesting-selector': true,
     'selector-attribute-quotes': 'always',
     'selector-class-pattern': [
