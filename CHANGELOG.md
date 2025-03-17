@@ -1,5 +1,16 @@
 # Changelog
 
+## [6.0.0](https://github.com/atolye15/stylelint-config/compare/v5.1.0...v6.0.0) (2025-03-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* `prettier` should be installed
+
+### Features
+
+* implement prettier and remove conflicting rules ([e6904e4](https://github.com/atolye15/stylelint-config/commit/e6904e49cc31893c3bd35c767dc7c68d50c3c7ff))
+
 ## [5.1.0](https://github.com/atolye15/stylelint-config/compare/v5.0.1...v5.1.0) (2025-03-13)
 
 
