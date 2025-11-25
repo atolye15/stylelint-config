@@ -5,6 +5,11 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
@@ -12,20 +17,20 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - uses: googleapis/release-please-action@v4
         id: release
         with:
-          release-type: node
+          release-type: simple
           package-name: '@atolye15/stylelint-config'
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"refactor","section":"Refactors","hidden":false}]'
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         if: ${{ steps.release.outputs.release_created }}
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v6
         if: ${{ steps.release.outputs.release_created }}
         with:
-          node-version: '18'
+          node-version: '22'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Install yarn packages
