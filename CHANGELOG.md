@@ -1,5 +1,18 @@
 # Changelog
 
+## [7.0.0](https://github.com/atolye15/stylelint-config/compare/v6.0.0...v7.0.0) (2025-11-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* `stylelint-config-standard-scss` v15 and v16 removed deprecated stylistic rules and updated config for compatibility with newer stylelint versions. See Stylelint migration guide to v15 for details.
+* `stylelint-order` v7 drops support for Node.js 18 and Stylelint <16.18.0, changes property order rules, and improves autofix behavior.
+* Minimum required Node.js version is now 20.
+
+### Build System
+
+* upgrade dependencies and set minimum node engine ([be69608](https://github.com/atolye15/stylelint-config/commit/be69608950c4f666b25aacaa6e3eac1a9937c6bf))
+
 ## [6.0.0](https://github.com/atolye15/stylelint-config/compare/v5.1.0...v6.0.0) (2025-03-17)
 
 
