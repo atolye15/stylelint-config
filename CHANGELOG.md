@@ -1,5 +1,16 @@
 # Changelog
 
+## [8.0.0](https://github.com/atolye15/stylelint-config/compare/v7.0.0...v8.0.0) (2026-01-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js 20.19.0 or higher is now required. Several selector-related rules have been removed due to incompatibility with standard CSS nesting in stylelint v17. If your project uses SCSS or Less with nonstandard nesting, you may need to turn off additional rules or use SCSS-specific alternatives. Code previously failing no-descending-specificity, no-duplicate-selectors, or selector-max-specificity checks will no longer be flagged.
+
+### Miscellaneous Chores
+
+* upgrade stylelint to v17 ([3a353eb](https://github.com/atolye15/stylelint-config/commit/3a353eba3e5fef4d8149351f2fefa7bc3f6945ec))
+
 ## [7.0.0](https://github.com/atolye15/stylelint-config/compare/v6.0.0...v7.0.0) (2025-11-25)
 
 
