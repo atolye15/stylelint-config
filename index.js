@@ -43,8 +43,6 @@ module.exports = {
     'media-feature-name-no-unknown': true,
     'media-feature-name-no-vendor-prefix': true,
     'named-grid-areas-no-invalid': true,
-    'no-descending-specificity': true,
-    'no-duplicate-selectors': true,
     'no-empty-source': true,
     'no-invalid-position-at-import-rule': [
       true,
@@ -167,9 +165,7 @@ module.exports = {
     'scss/percent-placeholder-pattern': '^[_-]?[a-z]+([a-z0-9-]+[a-z0-9]+)?$',
     'scss/no-duplicate-mixins': true,
     'scss/no-global-function-names': true,
-    'scss/selector-no-redundant-nesting-selector': true,
-    'selector-attribute-quotes': 'always',
-    'selector-class-pattern': [
+    'scss/selector-class-pattern': [
       '^[a-z]([-]?[a-z0-9]+)*(__[a-z0-9]([-]?[a-z0-9]+)*)?(--[a-z0-9]([-]?[a-z0-9]+)*)?$',
       {
         resolveNestedSelectors: true,
@@ -178,13 +174,13 @@ module.exports = {
         },
       },
     ],
-    'selector-max-attribute': 2,
+    'scss/selector-no-redundant-nesting-selector': true,
+    'selector-attribute-quotes': 'always',
+    'selector-class-pattern': null,
     'selector-max-class': 3,
     'selector-max-compound-selectors': 3,
     'selector-max-id': 0,
-    'selector-max-specificity': '0,3,0',
     'selector-max-universal': 1,
-    'selector-no-qualifying-type': true,
     'selector-no-vendor-prefix': true,
     'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: ['global'] }],
     'selector-pseudo-element-colon-notation': 'double',
